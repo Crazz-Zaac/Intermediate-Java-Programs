@@ -13,13 +13,11 @@ class Addition extends JFrame implements ActionListener { //implement listener i
 	  setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
 	  l1 = new JLabel("First Number:");
 	  l2 = new JLabel("Second Number: ");
-	  // l3 = new JLabel("Enter Rate: ");
 	  l4 = new JLabel("Sum: ");
 	  l5 = new JLabel();
 	  
 	  t1 = new JTextField(10);
 	  t2 = new JTextField(10);
-	  // t3 = new JTextField(10);
 	  
 	  b1 = new JButton("Calculate");
 	  
@@ -37,9 +35,8 @@ class Addition extends JFrame implements ActionListener { //implement listener i
 	  add(l5);
 
 	  b1.addActionListener(this);//Registering event
-
-		setSize(400,300);
-		setVisible(true);
+	  setSize(400,300);
+	  setVisible(true);
 	}
 	 
 	public void actionPerformed(ActionEvent ae){ //Handle Event

@@ -1,0 +1,1 @@
+This is a text written in input.txt but after the magic it will be in the output.txt file. Wanna see??

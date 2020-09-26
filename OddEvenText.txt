@@ -1,0 +1,7 @@
+Write a program to CREATE and WRITE n numbers in a file “NUMBER.TXT”. Open this file then read  its content and put all even numbers in one file “EVEN.TXT” and odd numbers in another file “ODD.TXT”.
+
+public class OddEvenText{
+	public static void main(String args[]){
+	
+	}
+}

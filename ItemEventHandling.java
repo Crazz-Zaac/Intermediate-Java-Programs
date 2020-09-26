@@ -1,3 +1,6 @@
+//Write a java GUI application program to illustrate the handling of item event.
+
+
 import java.awt.BorderLayout;
 import java.awt.*;
 import java.awt.event.*;
@@ -6,13 +9,13 @@ import javax.swing.*;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
-public class FontStyle extends JFrame implements ItemListener{
+public class ItemEventHandling extends JFrame implements ItemListener{
 	JTextField t1;
 	JLabel l1, l2;
 	Font myFontIt, myFontBl;
 	JCheckBox bold, italic;
 
-	public FontStyle(){
+	public ItemEventHandling(){
 		super("Font selector");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLayout(new FlowLayout(FlowLayout.CENTER, 150, 10));
@@ -53,11 +56,11 @@ public class FontStyle extends JFrame implements ItemListener{
         if(e.getSource() == italic){
         	txt = txt + t1.getText();
         	l1.setText(String.valueOf(txt));
-        	l1.setFont(myFontIt);
+        	l1.setFont(myFontBltIt);
         }        	
     }  
 
 	public static void main(String args[]) {
-	  	new FontStyle();
+	  	new ItemEventHandling();
 	}
 }

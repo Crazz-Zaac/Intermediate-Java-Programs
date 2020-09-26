@@ -1,0 +1,6 @@
+Rabin Bishwokarma	Sifal-07	112	CSIT
+Gagan Puri	Gaushala, Itahari	110	CSIT
+Bikram Bhurtel	Fifth dimention	105	Quantum space
+Aashis Dahal	Gangahity, Chabahil	100	Java, Android, Flutter
+
+

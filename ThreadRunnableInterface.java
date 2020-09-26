@@ -13,8 +13,8 @@ class ThreadRunnableInterface implements Runnable{
     }  
   }  
   public static void main(String args[]){  
-    ThreadRunnableInterface t1=new ThreadRunnableInterface();  
-    ThreadRunnableInterface t2=new ThreadRunnableInterface();
+    ThreadRunnableInterface t1 = new ThreadRunnableInterface();  
+    ThreadRunnableInterface t2 = new ThreadRunnableInterface();
     t1.run();  
     t2.run();  
   }  
